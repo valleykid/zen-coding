@@ -1,6 +1,6 @@
 {
   "name": "zen-coding",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple zenCoding",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "html"
   ],
   "author": "vk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valleykid/zen-coding.git"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.10.0"

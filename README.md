@@ -3,6 +3,8 @@ zen-coding
 
 同emmet的Syntax大部分功能，具体参考[Syntax](http://docs.emmet.io/cheat-sheet/)。
 
+功能包括：`Child:>` & `Multiplication:*` & `Custom attributes` & `Sibling:+` & `Grouping:()` & `Implicit tag names:div` & `ID and CLASS attributes`
+
 ## Installation
 
 Either through forking or by using [npm](https://www.npmjs.com) (the recommended way):
