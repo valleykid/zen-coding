@@ -13,7 +13,7 @@ module.exports = function(s){
 		Zen.frags[k.replace(/\{|\}/g, '')] = _getFrag(r);
 	});
 
-	return frag(_s).join('').replace(/\&nbsp;/g, '');
+	return frag(_s).join('').replace(/(\&nbsp;)|(\{\s+\})/g, '');
 };
 
 // zen-coding
