@@ -1,7 +1,7 @@
 {
   "name": "zen-coding",
-  "version": "0.0.3",
-  "description": "simple zenCoding",
+  "version": "0.0.4",
+  "description": "simple zencoding aka css to html expansion, lightweight, zero-dependencies and portable",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
@@ -15,8 +15,11 @@
     "type": "git",
     "url": "https://github.com/valleykid/zen-coding.git"
   },
+  "scripts":{
+    "browser": "/bin/bash -c 'browserify index.js | uglifyjs -c > zen-coding.min.js'"
+  },
+  "keywords": ["zencoding","zen","css expansion","css2html","css to html", "portable"],
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.0"
   }
 }

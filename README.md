@@ -14,7 +14,6 @@ npm install zen-coding
 ```
 And zen-coding will be installed in to your node-project.
 
-
 ## examples
 
 ```{js}
@@ -25,6 +24,14 @@ zenCoding('div#page>header.hd+(section.sc>div.main-wrap)+footer.ft');
 zenCoding('div#page>header.hd+(section.sc>div.main-wrap>span*3)+footer.ft>div.a');
 zenCoding('div#page>header.hd+(section.sc>span)*3+footer.ft');
 ```
+
+## Browser usage
+
+    <script type='text/javascript' src='zen-coding.min.js'></script>
+    <script>
+      zen = require("zen-coding");
+      console.log( zen("div>a") );
+    </script>
 
 ## Documentation
 
