@@ -1,4 +1,16 @@
-var _ = require('lodash'), Zen = {};
+var Zen = {};
+
+var _ = {
+  each: function(obj, iteratee, context) {
+    var k, results, v;
+    results = [];
+    for (k in obj) {
+      v = obj[k];
+      results.push(iteratee(v, k));
+    }
+    return results;
+  }
+};
 
 module.exports = function(s){
 	Zen.frags = {};
