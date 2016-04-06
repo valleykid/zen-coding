@@ -1,10 +1,13 @@
 {
   "name": "zen-coding",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "simple zencoding aka css to html expansion, lightweight, zero-dependencies and portable",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
+  },
+  "bin":{
+    "zencode":"cli.js"
   },
   "author": "vk",
   "repository": {
