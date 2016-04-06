@@ -33,6 +33,19 @@ zenCoding('div#page>header.hd+(section.sc>span)*3+footer.ft');
       console.log( zen("div>a") );
     </script>
 
+## Commandline usage:
+
+    $ zencode
+    Usage: zencode <string|file>
+
+    example: zencode 'a>b>div'
+
+    $ zencode "foo>bar"
+    <foo><bar></bar></foo>
+
+    $ zencode /tmp/foo.zen
+    <foo><bar></bar></foo>
+
 ## Documentation
 
 - 接收字符串参数，返回html结构
